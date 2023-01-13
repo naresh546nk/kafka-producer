@@ -7,7 +7,7 @@ pipeline{
         echo "building the application .."
         echo "adding script "
         script{
-            def t=2+2;
+            def t=2+20000;
             echo "This is the value of new variable t="+t
         }
       }
