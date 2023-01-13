@@ -5,6 +5,11 @@ pipeline{
     stage("build"){
       steps{
         echo "building the application .."
+        echo "adding script "
+        script{
+            def t=2+2;
+            echo "This is the value of new variable t="+t
+        }
       }
     }
 
